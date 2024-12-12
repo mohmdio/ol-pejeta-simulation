@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+# Distribution / packaging
+.eggs/
+.pip/
+dist/
+build/
+develop/
+*.egg-info/
+.installed.cfg
+PKG-INFO
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Unit test/coverage reports
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.coveragerc
+
+# Django session files
+*.session-id
+
+# Generated files
+*.log
+*.pid
+*.ini
+*.cfg
+*.db
+*.sqlite
+*.sql
+
+# IDE specific files
+.vscode/
+
+# Local configuration
+*.local
+*.env
+.env.*
+
+# Virtualenv
+.venv/
+env/

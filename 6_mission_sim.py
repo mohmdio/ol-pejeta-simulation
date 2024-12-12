@@ -10,11 +10,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
 )
 
-"""
-Start the SITL simulation with the following command:
---home=0.0248028,36.8688194,100,90 --param SIM_ADSB_TX=1 --param SIM_ADSB_COUNT=3 --param SIM_ADSB_ALT=50 --param SIM_ADSB_RADIUS=5000 --param SIM_ADSB_TYPES=1
-"""
-
 # Connect to the vehicle
 master = mavutil.mavlink_connection("tcp:127.0.0.1:14550")
 master.wait_heartbeat()
