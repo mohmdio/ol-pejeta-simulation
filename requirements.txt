@@ -1,0 +1,10 @@
+random
+pandas
+folium
+matplotlib
+seaborn
+scikit-learn
+numpy
+shapely
+pymavlink
+geopy
