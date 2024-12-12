@@ -8,7 +8,7 @@ import seaborn as sns
 api_key = "YOUR_API_KEY"
 
 #  Load the CSV file
-df = pd.read_csv("eastern_rhino_locations.csv")
+df = pd.read_csv("1_eastern_rhino_locations.csv")
 
 # Create a Folium Map
 # Center the map around the average latitude and longitude

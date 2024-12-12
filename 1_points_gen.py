@@ -20,6 +20,6 @@ for _ in range(num_points):
 
 # Convert to DataFrame and save as CSV
 df = pd.DataFrame(data)
-df.to_csv("eastern_rhino_locations.csv", index=False)
+df.to_csv("1_eastern_rhino_locations.csv", index=False)
 
-print("Generated rhino location points and saved as 'eastern_rhino_locations.csv'.")
+print("Generated rhino location points and saved as '1_eastern_rhino_locations.csv'.")

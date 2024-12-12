@@ -3,7 +3,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Load Rhino Location Data
-df = pd.read_csv("eastern_rhino_locations.csv")
+df = pd.read_csv("1_eastern_rhino_locations.csv")
 
 # Extract latitude and longitude
 coordinates = df[['latitude', 'longitude']]
