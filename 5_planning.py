@@ -4,7 +4,7 @@ import folium
 from shapely.geometry import Point
 from branca.element import Template, MacroElement
 
-# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles.
+# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles (line 122).
 api_key = "YOUR_API_KEY"
 
 # Define the locations

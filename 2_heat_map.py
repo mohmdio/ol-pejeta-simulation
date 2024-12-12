@@ -4,7 +4,7 @@ from folium.plugins import HeatMap
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles."
+# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles (line 24).
 api_key = "YOUR_API_KEY"
 
 #  Load the CSV file

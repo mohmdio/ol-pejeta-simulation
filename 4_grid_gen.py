@@ -3,7 +3,7 @@ from branca.element import Template, MacroElement
 import numpy as np
 from shapely.geometry import Point
 
-# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles.
+# You need Google Maps API key to display the map, otherwise you can use OpenStreetMap tiles (line 56).
 api_key = "YOUR_API_KEY"
 
 # Define the locations
